@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @uese.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @uese.description %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @uese.price %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @uese.image_url %>
+</p>
+
+
+<%= link_to 'Edit', edit_uese_path(@uese) %> |
+<%= link_to 'Back', ueses_path %>
